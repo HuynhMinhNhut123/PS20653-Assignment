@@ -1,0 +1,131 @@
+.menuSP {
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    padding: 10px;
+    font-size: 14px;
+}
+.menuSP>p {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.menuSP > p > a {
+    text-decoration: none;
+    color: black;
+}
+.menuSP > p> a:hover {
+    color: red;
+}
+.containerMT {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6em;
+    background-color: antiquewhite;
+}
+.containerMT>.containerMT-left {
+    width: 250px;
+    height: 450px;
+}
+.containerMT>.containerMT-left > img {
+    width: 100%;
+    height: 100%;
+}
+.containerMT>.containerMT-center {
+    width: 600px;
+    height: 500px;
+}
+
+.containerMT>.containerMT-right {
+    width: 300px;
+    height: 500px;
+}
+.ml {
+    margin-left: 30px;
+}
+.mr {
+    margin-right: 30px;
+}
+.muaBan{
+    background-color: orangered;
+    text-align: center;
+    width: 60%;
+    height: 12%;
+    border: 1px solid currentColor;
+    border-radius: 10px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.muaBan:hover {
+    color:red;
+    background-color: orange;
+}
+#Mua {
+    text-decoration: none;
+    color: white;
+}
+.chonLoc {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.loc {
+    border: 2px solid crimson;
+    width: 30%;
+    height: 8%;
+    text-align: center;
+}
+.loc > a {
+    font-size: 16px;
+    color: crimson;
+    text-decoration: none;
+}
+#man {
+    font-size: 12px;
+}
+#man > a {
+    text-decoration: none;
+    color: crimson;
+}
+.containerMT1 {
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+}
+.containerMT1 > .container-left {
+    width: 60%;
+    height: 60px;
+}
+.container-left{
+    display: flex;
+}
+.box1 {
+    padding-top: 10px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    background-color:black;
+}
+.box2 > a {
+    transition: color 0.7s;
+}
+.box2 {
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: tomato;
+}
+.box2 :hover {
+    color:black;
+}
+.container-left > div > a {
+    color: white;
+    text-decoration: none;
+}
+.mota1 {
+    width: 60%;
+    height: 50px;
+}

@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    max-width: 1360px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerSN {
+    display: flex;
+    width: 100%;
+}
+.left {
+    width: 250px;
+    background-image: url(/Assignment2/images/signin.jpg);
+    background-size: 190%;
+    transition: 1s;
+
+}
+.right {
+    width: 250px;
+    background-image: url(/Assignment2/images/signin2.jpg);
+    background-size: 190%;
+    transition: 1s;
+}
+.right:hover {
+    background-image: url(/Assignment2/images/signin.jpg);
+} 
+.left:hover {
+    background-image: url(/Assignment2/images/signin2.jpg);
+
+} 
+.center {
+    height: 650px;
+    position: relative;
+    background-color: rgb(187, 179, 179);
+
+}
+header {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    height: 60px;
+    align-items: center;
+    background-color: aquamarine;
+}
+.logo {
+    width: 210px;
+    height: 40px;
+}
+.iput input[type="text"]{
+    background-color: gainsboro;
+    margin-left: 30px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+.icon {
+    letter-spacing: 3px;
+    width: 210px;
+    height: 50px;
+    padding-left: 35px;
+    padding-top: 10px;
+    color: white;
+    padding-right: 40px;
+    min-width: 1em;
+    font-size: 1.4em;
+}
+nav {
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    padding-top: 10px;
+}
+h3 {
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    width: 30%;
+    height: 40px;
+    background-color: black;
+}
+
+.sections {
+    padding: 30px;
+    margin-top: 5px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(104, 100, 100);
+    color: white;
+}
+.sections input{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    margin-top: 10px;
+}
+.sections input:focus {
+    outline: none;
+}
+.google {
+    margin: 0 auto;
+    width: 30%;
+    height: 57px;
+    background-color: rgb(37, 184, 233);
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+    transition: 1.5s;
+}
+.google:hover {
+    background-color: brown;
+}
+.email {
+    margin: 0 auto;
+    width: 60%;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.password {
+    margin: 0 auto;
+    width: 60%;
+    height: 70px;
+}
+.ggicon {
+    background-color: white;
+    width: 25%;
+    min-width: 1em;
+    font-size: 3em;
+    transition: 1s;
+}
+.ggicon > a {
+    margin-left: 5px;
+    transition: 1s;
+}
+.ggicon > a:hover {
+    background-color: blueviolet;
+    color: black;
+}
+.ggicon:hover {
+    background-color: blueviolet;
+}
+.google > a {
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+.rug {
+    text-align: center;
+    width: 100%;
+    height: 70px;
+}
+.rug > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.rug > a button{
+    color: whitesmoke;
+}
+.rug > a >#DN {
+    width: 100px;
+    height: 40px;
+    background-color: crimson;
+    transition: 2s;
+}
+.rug > a >#DN:hover {
+    background-color: chocolate;
+}
+.rug > a >#DK {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(53, 138, 81);
+    transition: 2s;
+}
+.rug > a >#DK:hover {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 250, 87);
+}
+.mr {
+    margin-left: 10px;
+}
+footer > div{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#flogo {
+    margin-left: 20px;
+}
+
+#fqc {
+    float:right;
+    margin-right: 20px;
+}
